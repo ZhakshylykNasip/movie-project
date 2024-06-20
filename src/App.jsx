@@ -50,6 +50,11 @@ function App() {
   };
 
   const addMovie = () => {
+    if (!movieImage || !movieTitle || !movieStatus) {
+      alert("Please write a movie !!!");
+      return;
+    }
+
     const newMovie = {
       movieImage: movieImage,
       movieTitle: movieTitle,

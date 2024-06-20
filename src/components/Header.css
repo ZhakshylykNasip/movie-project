@@ -1,0 +1,37 @@
+.logo {
+  width: 130px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.logoBtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  border: 1px solid white;
+}
+.nav > a {
+  color: white;
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.watch_movie {
+  width: 300px;
+  background-color: orange;
+  height: 40px;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 1px solid red;
+}

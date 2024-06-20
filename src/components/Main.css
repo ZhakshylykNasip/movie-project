@@ -1,0 +1,50 @@
+.main {
+  padding: 30px;
+}
+.movies_container {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.wrapper_info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.wrapperButtons{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.buyBtn {
+  width: 80px;
+  height: 25px;
+  background-color: blueviolet;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.movie-block:hover {
+  scale: 1.01;
+  cursor: pointer;
+}
+.movie-block {
+  border: 1px solid white;
+  padding: 10px 20px 6px 20px;
+  border-radius: 10px;
+}
+.movie-images {
+  width: 250px;
+}
+.movie-title {
+  font-size: larger;
+}
+.movie-status {
+  color: green;
+  font-weight: 500;
+}

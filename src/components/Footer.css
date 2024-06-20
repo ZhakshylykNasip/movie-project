@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  background-color: black;
+  padding: 30px;
+  justify-content: space-around;
+}
+
+.footer_applications {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_applications > img {
+  width: 150px;
+}
